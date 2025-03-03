@@ -1,11 +1,43 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import PartnersCarousel from "@/components/PartnersCarousel";
+import IndoraceServicesGrid from "@/components/IndoraceServicesGrid.vue";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// I'm a space cadet. There is no compromise for this.
 ---
 
 <Layout>
-	<Welcome />
+  <div
+    id="page-body"
+    class="bg-white-100 dark:bg-zinc-900 p-2 md:p-4 min-h-screen"
+  >
+    <h2 class="my-4 md:my-8 text-xl md:text-4xl text-center">
+      INDORACE MANAGEMENT SERVICE
+    </h2>
+    <p class="my-8 md:my-4 text-center px-4 md:px-60">
+      INDORACE is a race and event management company specializing in triathlon,
+      cycling and running events. Founded in 2008 and up to now, INDORACE has
+      created more than 200 events or collaborated with other event organizers.
+      We strive to create high-quality events with an emphasis on participant
+      safety, experience and happiness. Until now, INDORACE has held many events
+      every year and is part of several BUMN, Regional Government, PRIVATE, and
+      Event Organizer. With the development of triathlon, cycling and running
+      events in Indonesia. Since 2019 INDORACE has also been committed to
+      becoming an Eco Greens Lifestyle-based event organizer by minimizing the
+      use of plastic and the use of materials that are not environmentally
+      friendly at every event.
+    </p>
+    <!-- Partners Section -->
+    <div>
+      <h4 class="text-center my-7 md:my-14 font-bold text-2xl md:text-5xl">Our Clients</h4>
+      <div class="grid place-items-center">
+        <PartnersCarousel client:only="react" />
+      </div>
+    </div>
+    <!-- Services Section -->
+     <div class="mt-16 mb-4">
+      <h2 class="text-center font-bold text-2xl md:text-5xl">Our Services</h2>
+      <IndoraceServicesGrid client:only="vue" />
+     </div>
+  </div>
 </Layout>
