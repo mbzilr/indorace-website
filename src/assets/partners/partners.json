@@ -1,0 +1,23 @@
+{
+    "partners": [
+        {"id":0, "name":"zero", "alt":"never implement zero.", "src":""},
+        {"id":1, "name":"Markas Besar Tentara Nasional Indonesia", "alt":"Mabes TNI", "src":"01_mabestni.png"},
+        {"id":2, "name":"Komandan Pasukan Khusus", "alt":"Kopassus", "src":"02_kopassus.png"},
+        {"id":3, "name":"Pusat Kesenjataan Infanteri Tentara Nasional Indonesia Angkatan Darat", "alt":"Pussenif TNI AD", "src":"03_pusseniftniad.png"},
+        {"id":4, "name":"Pasukan Pengaman Presiden", "alt":"Paspampres", "src":"04_paspampres.png" },
+        {"id":5, "name":"Dinas Pariwisata dan Kebudayaan Kabupaten Bangka", "alt":"Disparbud Bangka", "src":"05_dinparbudkabbangka.png"},
+        {"id":6, "name": "Kepolisian Daerah Bangka Belitung", "alt":"Polda Babel", "src":"06_poldababel.png"},
+        {"id":7, "name":"Komando Resor Militer", "alt":"Korem Babel", "src":"07_korambabel.png"},
+        {"id":8, "name":"Persatuan Jaksa", "alt":"Persaja", "src":"08_persaja.png"},
+        {"id":9, "name":"Taman Mini Indonesia Indah", "alt":"TMII", "src":"09_tmii.png"},
+        {"id":10, "name":"Universitas Prasetya Mulya", "alt":"Prasmul", "src":"10_prasmul.png"},
+        {"id":11, "name":"Aliansi Perguruan Tinggi Badan Usaha Milik Negara", "alt":"APERTI BUMN", "src":"11_aperti.png"},
+        {"id":12, "name":"Universitas Bina Nusantara", "alt":"Binus", "src":"12_binus.png"},
+        {"id":13, "name":"Universitas Indonesia", "alt":"UI", "src": "13_universitasindonesia.png"},
+        {"id":14, "name":"Jakarta Marathon 2015", "alt":"JM", "src":"14.png"},
+        {"id":15, "name":"Universitas Multimedia Nusantara", "alt":"UMN", "src":"15_umn.png"},
+        {"id":16, "name":"Harian Kompas", "alt":"Kompas", "src":"16.png"},
+        {"id":17, "name":"Institut Teknologi Bandung", "alt":"ITB", "src":"17.png"}
+
+    ]
+}

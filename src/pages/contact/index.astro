@@ -1,0 +1,18 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import ContactButton from "@/components/ContactButton";
+---
+
+<Layout>
+  <div
+    id="page-body"
+    class="bg-zinc-300 dark:bg-zinc-900 p-2 md:p-4 min-h-screen"
+  >
+    <div class="bg-white rounded-2xl text-start p-3 md:p-6">
+      <h4 class="font-bold text-2xl md:mb-4 mb-2">Contact Us</h4>
+      <span class="text-base/8 mb-2 md:mb-4">If you want to keep in touch, send your email to <a href="mailto:info@indorace.com" target="_self" rel="noopener noreferrer" class="text-sky-500 underline">here</a></span>
+      <p class="text-base/8 my-0 md:my-2">...Or click the button below.</p>
+      <ContactButton client:load/>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,52 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import "@/styles/global.css";
+---
+
+<Layout>
+  <div class="w-full h-screen bg-zinc-200/50 z-[-9999] flex flex-col" id="something-overlay">
+    <p
+      id="headliner"
+      class="text-center text-white/75 mx-0 mt-10 text-7xl md:text-9xl font-black z-50"
+    >
+      Content
+    </p>
+    <div class="my-10 items-start text-center">
+      <span class="m-4 text-xl font-bold">
+        This is the content page. Will it be used? Maybe.
+        <br /> Stay tuned for that. Maybe you'll find your photos here from past events.
+        <br/>But for what its worth now, just a simple page. Nothing fancy here. <br /> 
+        You probably got here from a redirect...
+        <br/>
+        If so, click <a href="/" target="_self" rel="noopener noreferrer" class="text-sky-400 underline font-mono font-light">here</a> to go to the home page. <br/>
+        ...Or use the navigation bar.
+
+        <br /><br />
+        But what if you want to stay here?
+        <br />Fine, go ahead. Enjoy the view.
+        <br />Just know that we plain love what we do.
+        <br />And we hope you do too.
+      </span>
+    </div>
+  </div>
+  <div id="something-content" class="bg-radial-[at_25%_25%] from-white to-zinc-900 to-75% absolute inset-0 z-[-1000]">
+  </div>
+
+</Layout>
+
+<script>
+  
+</script>
+
+<style>
+  #headliner {
+    -webkit-text-stroke: 1.375px red; /* Default for small screens */
+  }
+
+  @media (min-width: 768px) {
+    /* Medium (md) and larger breakpoints */
+    #headliner {
+      -webkit-text-stroke: 2.75px red;
+    }
+  }
+</style>
